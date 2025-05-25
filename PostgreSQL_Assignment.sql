@@ -26,3 +26,10 @@ INSERT INTO rangers (ranger_id, name, region) VALUES
 (1, 'Alice Green', 'Northern Hills'),
 (2, 'Bob White', 'River Delta'),
 (3, 'Carol King', 'Mountain Range');
+
+--- -----
+INSERT INTO species (species_id, common_name, scientific_name, discovery_date, conservation_status) VALUES
+(1, 'Snow Leopard', 'Panthera uncia', '1775-01-01', 'Endangered'),
+(2, 'Bengal Tiger', 'Panthera tigris tigris', '1758-01-01', 'Endangered'),
+(3, 'Red Panda', 'Ailurus fulgens', '1825-01-01', 'Vulnerable'),
+(4, 'Asiatic Elephant', 'Elephas maximus indicus', '1758-01-01', 'Endangered');
