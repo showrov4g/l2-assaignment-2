@@ -40,4 +40,9 @@ INSERT INTO rangers (name, region)
 
 -- ------------- 2
 SELECT COUNT(DISTINCT species_id) AS unique_species_count
-FROM sightings;
+    FROM sightings;
+
+
+-- -------- 3
+SELECT * FROM sightings
+    WHERE location ILIKE '%Pass%';
