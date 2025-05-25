@@ -33,3 +33,11 @@ INSERT INTO species (species_id, common_name, scientific_name, discovery_date, c
 (2, 'Bengal Tiger', 'Panthera tigris tigris', '1758-01-01', 'Endangered'),
 (3, 'Red Panda', 'Ailurus fulgens', '1825-01-01', 'Vulnerable'),
 (4, 'Asiatic Elephant', 'Elephas maximus indicus', '1758-01-01', 'Endangered');
+
+-- Register New ranger 
+INSERT INTO rangers (name, region) 
+    VALUES ('Derek Fox', 'Coastal Plains');
+
+-- ------------- 2
+SELECT COUNT(DISTINCT species_id) AS unique_species_count
+FROM sightings;
